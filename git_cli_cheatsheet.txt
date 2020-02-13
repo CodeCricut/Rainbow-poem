@@ -23,3 +23,6 @@ Creating branches:
 Merge Branches: 
 1. git checkout master                      - Change to branch you want to merge with
 2. git merge <feature-branch>               - merge your new branch into your active branch
+
+
+NOTE: These steps will likely change later on. I am not sure if these commands are all correct.
