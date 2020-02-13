@@ -10,13 +10,12 @@ git commit -a -m "message"                                  - commit *all* chang
 git push (--set-upstream || -u) origin master               - push to the master branch
 git push (--set-upstream || -u) origin <feature-branch>     - push the changes to a new branch on Github/origin
 
-git branch                               - list the current branches
-git branch <feature-branch>              - create a new feature branch
-git checkout <feature-branch>            - switch to the feature branch
-git checkout -b <feature-branch>         - shorthand for creating and checking out a branch
-
-git merge <feature-branch>               - merge your new branch into your active branch
-
+git branch                                                  - list the current branches
+git branch <feature-branch>                                 - create a new feature branch
+git checkout <feature-branch>                               - switch to the feature branch
+git checkout -b <feature-branch>                            - shorthand for creating and checking out a branch
+git branch -d <feature branch>                              - delete a branch
+git merge <feature-branch>                                  - merge your new branch into your active branch
 
 git log -[n]                                                - list the last n commits, or all if -[n] is excluded (:q[enter] to exit VIM)
 
