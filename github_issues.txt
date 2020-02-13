@@ -1,0 +1,5 @@
+Github allows users to file issues. Remember, issues are not a part of Git; they are GitHub specific.
+
+Submitting an issue is pretty straigtforward, so I won't cover it. 
+
+Issues can only be resolved by the owner of the repo, or the person who filed the issue.
