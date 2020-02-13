@@ -1,0 +1,25 @@
+Creating and cloning a remote repository:
+1. Create a repository using Github
+2. git init                                 - create a local repository
+3. git add --all                            - add files from workspace
+4. git commit -m "message"                  - commit the files to track
+5. git remote add origin [url]              - add the remote repo that we want to push to
+6. git push -u origin master                - push the tracked files onto the remote repo
+
+Making changes:             
+1. git add --all                            - add files from workspace
+2. git commit -m "message"                  - commit the files to track
+3. git remote add origin [url]              - add the remote repo that we want to push to
+4. git push -u origin master                - push the tracked files onto the remote repo
+
+Creating branches:          
+1. git branch                               - list the current branches
+2. git branch <feature-branch>              - create a new feature branch
+3. git checkout <feature-branch>            - switch to the feature branch
+    2 + 3. git checkout -b <feature-branch> - shorthand for steps 2 and 3
+4. git commit -m "message"                  - changes will only apply to this branch
+5. git push -u origin <feature-branch>      - apply the changes to the new branch
+
+Merge Branches: 
+1. git checkout master                      - Change to branch you want to merge with
+2. git merge <feature-branch>               - merge your new branch into your active branch
