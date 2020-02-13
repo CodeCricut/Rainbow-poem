@@ -1,0 +1,12 @@
+Previously, we learned about branches. Branches allow us to isolate new features without
+disrupting the sanctitiy of the master branch. Once we are satisfied with those changes, we 
+can merge them to the master branch.
+
+If a user wishes to create a copy of another user's repo, then you can fork it. You may 
+have heard of cloning repositories before, but that is a GitHub specific term. Forking 
+creates a carbon copy of the original repo, including the branch history.
+
+Say you created a super cool branch to a repository you forked, and want to update the original
+repo. You probably don't have permission to push the changes to the repo, but you can put out a 
+pull request. A pull request means you are requesting that the original repo accepts the changes 
+you made.
