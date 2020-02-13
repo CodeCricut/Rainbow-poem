@@ -26,3 +26,18 @@ Merge Branches:
 
 
 NOTE: These steps will likely change later on. I am not sure if these commands are all correct.
+
+::::::::::::::::::::::::::::::::::::::::UPDATED VERSION::::::::::::::::::::::::::::::::::::::::
+
+Useful commands: 
+git clone [url]                                             - clone a remote repository
+git status                                                  - print information about the status of the files
+git commit -a -m "message"                                  - commit *all* changes to the local repo
+git log -[n]                                                - list the last n commits, or all if -[n] is excluded (BEWARE ENTERING VIM!)
+git push origin master                                      - push to the master branch
+
+
+Less useful commands: 
+git config --global user.name "your name"
+git config --global user.email "your@email.com"
+
