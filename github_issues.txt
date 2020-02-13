@@ -6,4 +6,8 @@ Issues can only be resolved by the owner of the repo, or the person who filed th
 
 Each issue has a unique ID. You can reference this ID in your commit messages to automatically update
 the related issue page. For example, if I use the commit message "Fixed spelling as per #10", the page
-corresponding to the #10 issue will automatically link to the commit page.
+corresponding to the #10 issue will automatically link to the commit page. Furthermore, some keywords
+automatically resolve issues. If you put the word "fix" in a commit message, the issue referenced will
+be set as resolved.
+
+If you paste the hash of a commit on an issue, it will be converted to a link.
