@@ -2,6 +2,7 @@ Useful commands:
 git init                                                    - create a local repository
 git clone [url]                                             - clone a remote repository
 git remote add origin [url]                                 - add the remote repo that we want to push to
+git pull --allow-unrelated-histories origin master          - use that flag if git refuses to pull repo with README.md
 
 git status                                                  - print information about the status of the files
 
